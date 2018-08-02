@@ -1,0 +1,37 @@
+{
+  "name": "compose-typed",
+  "version": "0.0.0",
+  "description": "A very small library for a set of compose functions that are flow-typed",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es6.js",
+  "scripts": {
+    "build:flow": "flow-copy-source ./src ./dist",
+    "build:rollup": "rollup -c",
+    "build": "npm run build:flow && npm run build:rollup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukekaalim/compose-typed.git"
+  },
+  "keywords": [
+    "flow",
+    "compose",
+    "tiny"
+  ],
+  "author": "Luke Kaalim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukekaalim/compose-typed/issues"
+  },
+  "homepage": "https://github.com/lukekaalim/compose-typed#readme",
+  "devDependencies": {
+    "flow-copy-source": "^2.0.2",
+    "jest": "^23.4.2",
+    "rollup": "^0.63.5",
+    "rollup-plugin-flow": "^1.1.1"
+  },
+  "jest": {
+    "testURL": "http://localhost/"
+  }
+}
