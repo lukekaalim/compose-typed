@@ -27,7 +27,7 @@
   "homepage": "https://github.com/lukekaalim/compose-typed#readme",
   "devDependencies": {
     "flow-copy-source": "^2.0.2",
-    "jest": "^23.4.2",
+    "jest": "^23.6.0",
     "rollup": "^0.63.5",
     "rollup-plugin-flow": "^1.1.1"
   },
