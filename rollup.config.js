@@ -1,4 +1,5 @@
 import flow from 'rollup-plugin-flow';
+import flowEntry from 'rollup-plugin-flow-entry'
 
 export default {
   input: './src/index.js',
@@ -17,5 +18,5 @@ export default {
       format: 'es'
     },
   ],
-  plugins: [ flow() ],
+  plugins: [ flowEntry(), flow() ],
 };
