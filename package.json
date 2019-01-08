@@ -1,6 +1,6 @@
 {
   "name": "compose-typed",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A very small library for a set of compose functions that are flow-typed",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es6.js",
